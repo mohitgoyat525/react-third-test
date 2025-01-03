@@ -52,11 +52,12 @@ const Form = () => {
         <h1 className="text-center text-darkBlack text-4xl max-md:text-3xl font-bold leading-[44px]">
           Event einsenden
         </h1>
-        <p className="text-center font-light text-xl leading-[30px] max-w-[768px] mx-auto pt-5 text-neutural">
-          At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+        <p className="text-center font-light text-xl leading-[30px] max-w-[768px] mx-auto pt-5 max-sm:text-lg text-neutural">
+         
+          At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
         </p>
         <form className="w-full max-w-[768px] mx-auto" onSubmit={submitHandler}>
-          <div className="flex gap-4 flex-wrap w-full max-w-[768px] bg-white border my-5 border-dashed rounded-[30px] py-2 px-4 items-center">
+          <div className="max-sm:justify-center flex gap-4 flex-wrap w-full max-w-[768px] bg-white border my-5 border-dashed rounded-[30px] py-2 px-4 items-center">
             {upload.map((obj, i) => (
               <div key={i} className="relative size-24 rounded-lg overflow-hidden">
                 <img
@@ -77,7 +78,7 @@ const Form = () => {
           </div>
           <div className="relative">
             <div
-              className="flex items-center cursor-pointer justify-between bg-white rounded-[30px] py-[17px] px-4"
+              className="flex items-center cursor-pointer justify-between bg-white rounded-[30px] py-[17.5px] px-4"
               onClick={toggleDropdown}
             >
               <p className="text-sm font-bold text-neutural leading-[21px]">{selectedOption}</p>
@@ -108,7 +109,7 @@ const Form = () => {
               value={formData.title}
               onChange={handleChange}
               placeholder="Titel"
-              className="placeholder:text-neutural max-lg:max-w-none placeholder:text-sm placeholder:font-bold placeholder:leading-[21px] bg-white rounded-[30px] max-md:max-w-none py-[17px] px-4 text-sm font-bold text-neutural leading-[21px] w-full max-w-[371px] outline-none"
+              className="placeholder:text-neutural max-lg:max-w-none placeholder:text-sm placeholder:font-bold placeholder:leading-[21px] bg-white rounded-[30px] max-md:max-w-none py-[17.5px] px-4 text-sm font-bold text-neutural leading-[21px] w-full max-w-[371px] outline-none"
             />
             <input
               type="text"
@@ -116,11 +117,11 @@ const Form = () => {
               value={formData.date}
               onChange={handleChange}
               placeholder="Datum"
-              className="placeholder:text-neutural max-lg:max-w-none placeholder:text-sm placeholder:font-bold placeholder:leading-[21px] bg-white rounded-[30px] max-md:max-w-none py-[17px] px-4 text-sm font-bold text-neutural leading-[21px] w-full max-w-[371px] outline-none"
+              className="placeholder:text-neutural max-lg:max-w-none placeholder:text-sm placeholder:font-bold placeholder:leading-[21px] bg-white rounded-[30px] max-md:max-w-none py-[17.5px] px-4 text-sm font-bold text-neutural leading-[21px] w-full max-w-[371px] outline-none"
             />
           </div>
           <div className="flex items-center justify-between flex-wrap max-lg:gap-6">
-            <input type="text" name="Standort" value={formData.Standort} onChange={handleChange} placeholder="Standort" className="placeholder:text-neutural max-lg:max-w-none placeholder:text-sm placeholder:font-bold placeholder:leading-[21px] bg-white rounded-[30px] py-[17px] px-4 max-md:max-w-none  text-sm font-bold text-neutural leading-[21px] w-full max-w-[371px] outline-none"
+            <input type="text" name="Standort" value={formData.Standort} onChange={handleChange} placeholder="Standort" className="placeholder:text-neutural max-lg:max-w-none placeholder:text-sm placeholder:font-bold placeholder:leading-[21px] bg-white rounded-[30px] py-[17.5px] px-4 max-md:max-w-none  text-sm font-bold text-neutural leading-[21px] w-full max-w-[371px] outline-none"
             />
             <input
               type="text"
@@ -128,7 +129,7 @@ const Form = () => {
               value={formData.Preis}
               onChange={handleChange}
               placeholder="Preis"
-              className="placeholder:text-neutural max-lg:max-w-none placeholder:text-sm placeholder:font-bold placeholder:leading-[21px] bg-white rounded-[30px] py-[17px] px-4 max-md:max-w-none text-sm font-bold text-neutural leading-[21px] w-full max-w-[371px] outline-none"
+              className="placeholder:text-neutural max-lg:max-w-none placeholder:text-sm placeholder:font-bold placeholder:leading-[21px] bg-white rounded-[30px] py-[17.5px] px-4 max-md:max-w-none text-sm font-bold text-neutural leading-[21px] w-full max-w-[371px] outline-none"
             />
           </div>
           <textarea
@@ -138,7 +139,7 @@ const Form = () => {
             placeholder="Details zur Veranstaltung"
             className="placeholder:py-[35px] h-[132px] my-5 outline-none w-full placeholder:text-neutural placeholder:text-sm placeholder:text-bold placeholder:leading-[21px] bg-white rounded-[30px] p-4 text-sm font-bold text-neutural leading-[21px]"
           ></textarea>
-          <button type="submit" className=" hover:scale-105 transition-all ease-linear duration-200 resize-none w-full max-w-[361px] mx-auto border border-solid rounded-[30px] text-white text-base font-bold leading-6 form-btn py-4 flex items-center justify-center">
+          <button type="submit" className="hover:scale-105 transition-all ease-linear duration-200 resize-none w-full max-w-[361px] mx-auto border border-solid rounded-[30px] text-white text-base font-bold leading-6 form-btn py-4 flex items-center justify-center">
             Event einsenden
           </button>
         </form>

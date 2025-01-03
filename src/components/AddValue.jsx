@@ -15,7 +15,7 @@ const AddValue = () => {
     };
 
     return (
-        <div className='flex items-center justify-center h-screen flex-col'>
+        <div className='flex items-center justify-center flex-col'>
             <h2 className='text-center font-medium text-2xl text-neutral py-5'>Add Value</h2>
             <form className='border border-solid rounded-3xl border-neutral p-5 flex flex-col w-full max-w-[576px]' onSubmit={submitHandler}>
                 <input type="number" value={num1} onChange={(e) => setNum1(e.target.value)} className='outline-none border border-solid rounded-3xl border-neutral p-5 mb-3' placeholder="Enter first number"
@@ -28,7 +28,7 @@ const AddValue = () => {
                     </p>
                 <button
                   
-                    className='border border-solid rounded-3xl border-neutral p-5 text-sm font-medium text-neutral'
+                    className='hover:scale-105 transition-all ease-linear duration-200 border border-solid rounded-3xl border-neutral p-5 text-sm font-medium text-neutral'
                 >
                     Equal
                 </button>
