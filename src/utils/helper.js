@@ -1,1 +1,1 @@
-export  const DROPDOWN_LIST = ["Option 1", "Option 2", "Option 3"];
+export  const DROPDOWN_LIST = ["Option 1", "Option 2", "Option 3", "Kategorie"];
