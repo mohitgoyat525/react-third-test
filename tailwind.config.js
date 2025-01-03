@@ -18,6 +18,7 @@ module.exports = {
         primary: "#F5F9FC",
         darkBlack: "#222222",
         lightGray: "#D4D4D4",
+        sky: "#D1E0E9",
       },
     },
   },

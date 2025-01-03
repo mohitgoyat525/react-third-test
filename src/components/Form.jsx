@@ -56,7 +56,7 @@ const Form = () => {
           At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
         </p>
         <form className="w-full max-w-[768px] mx-auto" onSubmit={submitHandler}>
-          <div className="max-sm:justify-center flex gap-4 flex-wrap w-full max-w-[768px] bg-white border my-5 border-dashed rounded-[30px] py-2 px-4 items-center">
+          <div className="max-sm:justify-center flex gap-4 flex-wrap w-full max-w-[768px] border-sky bg-white border my-5 border-dashed rounded-[30px] py-2 px-4 items-center">
             {upload.map((obj, i) => (
               <div key={i} className="relative size-24 rounded-lg overflow-hidden">
                 <img
@@ -66,7 +66,7 @@ const Form = () => {
                 />
               </div>
             ))}
-            <label className="w-24 h-20 border-2 border-dashed border-lightGray rounded-[20px] flex items-center justify-center cursor-pointer hover:bg-gray-200 transition-all ease-linear duration-200">
+            <label className="w-24 h-20 border border-dashed border-lightGray rounded-[20px] flex items-center justify-center cursor-pointer hover:bg-gray-200 transition-all ease-linear duration-200">
               <input
                 type="file"
                 className="hidden"
