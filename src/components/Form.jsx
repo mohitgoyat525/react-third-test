@@ -101,14 +101,14 @@ const Form = () => {
               </div>
             )}
           </div>
-          <div className="flex items-center justify-between my-5 flex-wrap max-md:gap-6">
+          <div className="flex items-center justify-between my-5 flex-wrap max-lg:gap-6 max-lg:w-full">
             <input
               type="text"
               name="title"
               value={formData.title}
               onChange={handleChange}
               placeholder="Titel"
-              className="placeholder:text-neutural placeholder:text-sm placeholder:font-bold placeholder:leading-[21px] bg-white rounded-[30px] max-md:max-w-none py-[17px] px-4 text-sm font-bold text-neutural leading-[21px] w-full max-w-[371px] outline-none"
+              className="placeholder:text-neutural max-lg:max-w-none placeholder:text-sm placeholder:font-bold placeholder:leading-[21px] bg-white rounded-[30px] max-md:max-w-none py-[17px] px-4 text-sm font-bold text-neutural leading-[21px] w-full max-w-[371px] outline-none"
             />
             <input
               type="text"
@@ -116,11 +116,11 @@ const Form = () => {
               value={formData.date}
               onChange={handleChange}
               placeholder="Datum"
-              className="placeholder:text-neutural placeholder:text-sm placeholder:font-bold placeholder:leading-[21px] bg-white rounded-[30px] max-md:max-w-none py-[17px] px-4 text-sm font-bold text-neutural leading-[21px] w-full max-w-[371px] outline-none"
+              className="placeholder:text-neutural max-lg:max-w-none placeholder:text-sm placeholder:font-bold placeholder:leading-[21px] bg-white rounded-[30px] max-md:max-w-none py-[17px] px-4 text-sm font-bold text-neutural leading-[21px] w-full max-w-[371px] outline-none"
             />
           </div>
-          <div className="flex items-center justify-between flex-wrap max-md:gap-6">
-            <input type="text" name="Standort" value={formData.Standort} onChange={handleChange} placeholder="Standort" className="placeholder:text-neutural placeholder:text-sm placeholder:font-bold placeholder:leading-[21px] bg-white rounded-[30px] py-[17px] px-4 max-md:max-w-none  text-sm font-bold text-neutural leading-[21px] w-full max-w-[371px] outline-none"
+          <div className="flex items-center justify-between flex-wrap max-lg:gap-6">
+            <input type="text" name="Standort" value={formData.Standort} onChange={handleChange} placeholder="Standort" className="placeholder:text-neutural max-lg:max-w-none placeholder:text-sm placeholder:font-bold placeholder:leading-[21px] bg-white rounded-[30px] py-[17px] px-4 max-md:max-w-none  text-sm font-bold text-neutural leading-[21px] w-full max-w-[371px] outline-none"
             />
             <input
               type="text"
@@ -128,7 +128,7 @@ const Form = () => {
               value={formData.Preis}
               onChange={handleChange}
               placeholder="Preis"
-              className="placeholder:text-neutural placeholder:text-sm placeholder:font-bold placeholder:leading-[21px] bg-white rounded-[30px] py-[17px] px-4 max-md:max-w-none text-sm font-bold text-neutural leading-[21px] w-full max-w-[371px] outline-none"
+              className="placeholder:text-neutural max-lg:max-w-none placeholder:text-sm placeholder:font-bold placeholder:leading-[21px] bg-white rounded-[30px] py-[17px] px-4 max-md:max-w-none text-sm font-bold text-neutural leading-[21px] w-full max-w-[371px] outline-none"
             />
           </div>
           <textarea
