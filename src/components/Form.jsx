@@ -52,8 +52,7 @@ const Form = () => {
         <h1 className="text-center text-darkBlack text-4xl max-md:text-3xl font-bold leading-[44px]">
           Event einsenden
         </h1>
-        <p className="text-center font-light text-xl leading-[30px] max-w-[768px] mx-auto pt-5 max-sm:text-lg text-neutural">
-         
+        <p className="text-center font-light text-xl leading-[30px] max-w-[768px] mx-auto pt-5 max-sm:text-lg max-sm:pt-3 text-neutural">
           At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
         </p>
         <form className="w-full max-w-[768px] mx-auto" onSubmit={submitHandler}>
