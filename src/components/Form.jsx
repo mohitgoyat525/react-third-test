@@ -66,7 +66,7 @@ const Form = () => {
                 />
               </div>
             ))}
-            <label className="w-24 h-20 border-2 border-dashed border-neutural rounded-[20px] flex items-center justify-center cursor-pointer hover:bg-gray-200 transition-all ease-linear duration-200">
+            <label className="w-24 h-20 border-2 border-dashed border-lightGray rounded-[20px] flex items-center justify-center cursor-pointer hover:bg-gray-200 transition-all ease-linear duration-200">
               <input
                 type="file"
                 className="hidden"

@@ -17,6 +17,7 @@ module.exports = {
         neutural: "#737376",
         primary: "#F5F9FC",
         darkBlack: "#222222",
+        lightGray: "#D4D4D4",
       },
     },
   },
