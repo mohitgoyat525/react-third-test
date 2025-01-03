@@ -136,7 +136,7 @@ const Form = () => {
             value={formData.details}
             onChange={handleChange}
             placeholder="Details zur Veranstaltung"
-            className="flex h-[132px] items-center my-5 outline-none w-full placeholder:text-neutural placeholder:text-sm placeholder:text-bold placeholder:leading-[21px] bg-white rounded-[30px] p-4 text-sm font-bold text-neutural leading-[21px]"
+            className="placeholder:py-[35px] h-[132px] my-5 outline-none w-full placeholder:text-neutural placeholder:text-sm placeholder:text-bold placeholder:leading-[21px] bg-white rounded-[30px] p-4 text-sm font-bold text-neutural leading-[21px]"
           ></textarea>
           <button type="submit" className=" hover:scale-105 transition-all ease-linear duration-200 resize-none w-full max-w-[361px] mx-auto border border-solid rounded-[30px] text-white text-base font-bold leading-6 form-btn py-4 flex items-center justify-center">
             Event einsenden

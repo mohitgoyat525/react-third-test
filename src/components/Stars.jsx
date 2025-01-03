@@ -17,7 +17,7 @@ const StarPattern = () => {
     const pattern = createPattern();
     return (
         <div className='flex items-center justify-center flex-col h-screen'>
-            <h2 className='text-center font-medium text-2xl text-neutural py-5'>Star Pattern</h2>
+            <h2 className='text-center font-medium text-2xl py-5'>Star Pattern</h2>
             <p>
                 {pattern.map((row, i) => (
                     <div key={i}>{row.join(' ')}</div>
